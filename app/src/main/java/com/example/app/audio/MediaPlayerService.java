@@ -39,11 +39,11 @@ public class MediaPlayerService extends Service implements MediaPlayer.OnComplet
         AudioManager.OnAudioFocusChangeListener {
 
 
-    public static final String ACTION_PLAY = "com.valdioveliu.valdio.audioplayer.ACTION_PLAY";
-    public static final String ACTION_PAUSE = "com.valdioveliu.valdio.audioplayer.ACTION_PAUSE";
-    public static final String ACTION_PREVIOUS = "com.valdioveliu.valdio.audioplayer.ACTION_PREVIOUS";
-    public static final String ACTION_NEXT = "com.valdioveliu.valdio.audioplayer.ACTION_NEXT";
-    public static final String ACTION_STOP = "com.valdioveliu.valdio.audioplayer.ACTION_STOP";
+    public static final String ACTION_PLAY = "com.example.app.audioplayer.ACTION_PLAY";
+    public static final String ACTION_PAUSE = "com.example.app.audioplayer.ACTION_PAUSE";
+    public static final String ACTION_PREVIOUS = "com.example.app.audioplayer.ACTION_PREVIOUS";
+    public static final String ACTION_NEXT = "com.example.app.audioplayer.ACTION_NEXT";
+    public static final String ACTION_STOP = "com.example.app.audioplayer.ACTION_STOP";
     private final String MEDIA_CHANNEL_ID = "media_playback_channel";
 
     private MediaPlayer mediaPlayer;
