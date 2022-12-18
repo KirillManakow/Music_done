@@ -12,7 +12,7 @@ import java.lang.reflect.Type;
 
 public class StorageUtil {
 
-    private final String STORAGE = " com.valdioveliu.valdio.audioplayer.STORAGE";
+    private final String STORAGE = " com.example.app.audioplayer.STORAGE";
     private SharedPreferences preferences;
     private Context context;
 
